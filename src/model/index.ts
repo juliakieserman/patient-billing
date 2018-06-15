@@ -51,5 +51,6 @@ export interface ISession {
 
 export interface IMonthlyBill {
     patient: IPatient;
+    sessions: ISession[];
     month: Month;
 }
